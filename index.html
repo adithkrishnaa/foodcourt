@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Court</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        section {
+            float: left;
+            width: 40%;
+            margin-right: 5%;
+            background-color: #fff;
+            padding: 20px;
+            box-sizing: border-box;
+            border-radius: 20px;
+            margin-bottom: 20px;
+            margin-left:5% ;
+            text-align: center;
+        }
+
+        .form{
+            width: 40%;
+            font-size: 1.5rem;
+            text-align: left;
+        }
+
+        button{
+            margin-top: 10px;
+            justify-content: center;
+            align-items: center;
+            padding: 10px;
+            border-radius: 10px;
+            place-content: center;
+        }
+
+
+
+        footer {
+            clear: both;
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Food Court</h1>
+        <p>Delicious and Diverse Food Options</p>
+    </header>
+
+    <main>
+        <section class="first">
+            <img src="./burger.jpg" alt="">
+            <h2>Burger Station</h2>
+            <p>Try our mouth-watering burgers with a variety of toppings and sauces.</p>
+        </section>
+
+        <section class="second">
+            <img src="pizza.jpg" alt="">
+            <h2>Pizza Corner</h2>
+            <p>Authentic Italian pizzas made with fresh ingredients and baked to perfection.</p>
+        </section>
+
+        <section class="three">
+            <img src="./sushi.jpg" alt="">
+            <h2>Sushi Bar</h2>
+            <p>Experience the art of sushi with our carefully crafted rolls and sashimi.</p>
+        </section>
+
+        <section class="four">
+            <img src="./dessert.jpg" height="220px"  alt="">
+            <h2>Dessert Haven</h2>
+            <p>Satisfy your sweet tooth with our delectable desserts and treats.</p>
+        </section>
+
+        <section>
+            <img src="./fries.jpg" alt="">
+            <h2>Fries</h2>
+            <p>French fries are served hot, either soft or crispy, and are generally eaten as part of lunch or dinner or by themselves as a snack.</p>
+        </section>
+
+        <section class="form">
+            <h1>Order List</h1>
+            <label for="Name">Name :</label>
+            <input type="text" name="name" placeholder="Name"><br>
+            <label for="Number">Phone Number :</label>
+            <input type="number" placeholder="Number"><br>
+            <label for="food Court">Select Food :</label>
+            <select name="Food Court" id="">
+                <option value="">-select court-</option>
+                <option value="">Burger</option>
+                <option value="">Pizza </option>
+                <option value="">Sushi </option>
+                <option value="">Dessert </option>
+                <option value="">Fries</option>
+            </select><br>
+            <button class="bnt">place order</button>
+        </section>
+
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Food Court. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
